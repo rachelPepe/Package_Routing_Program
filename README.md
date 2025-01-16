@@ -2,12 +2,12 @@
 
 ## WGUPS Routing Program
 
-### Overview
+### <ins>Overview</ins>
 
 The WGUPS Routing Program is a software solution designed to optimize the delivery of packages for the Western Governors University Parcel Service (WGUPS) in Salt Lake City. This program uses the Nearest Neighbor Algorithm to calculate the most efficient routes, minimizing mileage and meeting delivery deadlines. It also includes a user interface to display delivery details and statistics.
 
 
-### Features
+### <ins>Features</ins>
 
 **Package Management:** Utilizes a hash table to efficiently store and manage package details.
 **Route Optimization:** Implements the Nearest Neighbor Algorithm to calculate the shortest delivery routes.
@@ -15,7 +15,7 @@ The WGUPS Routing Program is a software solution designed to optimize the delive
 **User Interface:** Provides options to view delivery status, total mileage, and specific package details.
 
 
-### Requirements
+### <ins>Requirements</ins>
 
 **Software Requirements**
 Python 3.9+
@@ -27,7 +27,7 @@ timedelta
 
 
 
-### Algorithms and Data Structures
+### <ins>Algorithms and Data Structures</ins>
 
 **Nearest Neighbor Algorithm**
 
@@ -43,7 +43,7 @@ Handle real-time updates, such as address corrections.
 
 
 
-## Strengths and Limitations
+### <ins>Strengths and Limitations</ins>
 
 **Strengths:**
 
@@ -55,7 +55,7 @@ Modular code makes the project easy to maintain and expand.
 The Nearest Neighbor Algorithm does not guarantee globally optimal solutions.
 Real-world traffic conditions are not considered.
 
-### Future Enhancements
+### <ins>Future Enhancements</ins>
 
 Implement more advanced algorithms like Dijkstra's Algorithm or A* for global route optimization.
 Integrate real-time traffic data for better route planning.
